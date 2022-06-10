@@ -1,0 +1,20 @@
+﻿<Window x:Class="Genkel_TP1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Genkel_TP1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="Start_Button" Content="Вывести" HorizontalAlignment="Left" Margin="381,70,0,0" VerticalAlignment="Top" Click="Start_Button_Click" Height="31" Width="402" Background="#FF85BE6E" FontSize="20"/>
+        <ComboBox x:Name="NewsType_CB1" HorizontalAlignment="Left" Margin="381,136,0,0" VerticalAlignment="Top" Width="402" Height="21"/>
+        <ComboBox x:Name="NewsType_CB2" HorizontalAlignment="Left" Margin="381,195,0,0" VerticalAlignment="Top" Width="402" Height="19"/>
+        <ComboBox x:Name="NewsType_CB3" HorizontalAlignment="Left" Margin="381,258,0,0" VerticalAlignment="Top" Width="402" Height="23"/>
+        <ScrollViewer HorizontalAlignment="Left" Margin="36,70,0,0" VerticalAlignment="Top" Height="260" Width="305">
+            <TextBlock x:Name="Output_TB" TextWrapping="Wrap"/>
+
+        </ScrollViewer>
+
+    </Grid>
+</Window>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Genkel_TP1", "Genkel_TP1\Genkel_TP1.csproj", "{37786A22-C687-400E-94CB-92B22EC832FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{8E5AA897-EBC6-4F86-B6EB-E7315535B395}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37786A22-C687-400E-94CB-92B22EC832FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37786A22-C687-400E-94CB-92B22EC832FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37786A22-C687-400E-94CB-92B22EC832FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37786A22-C687-400E-94CB-92B22EC832FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E5AA897-EBC6-4F86-B6EB-E7315535B395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E5AA897-EBC6-4F86-B6EB-E7315535B395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E5AA897-EBC6-4F86-B6EB-E7315535B395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E5AA897-EBC6-4F86-B6EB-E7315535B395}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE4CD029-90F2-4419-8134-4B4A1DA8A4B4}
+	EndGlobalSection
+EndGlobal
